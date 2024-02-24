@@ -6,6 +6,7 @@ import cv2 as cv
 import model_train as dtc
 from flask_cors import CORS
 
+
 app = Flask(__name__)
 CORS(app)
 
